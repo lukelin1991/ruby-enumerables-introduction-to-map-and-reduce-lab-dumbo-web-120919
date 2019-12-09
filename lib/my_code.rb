@@ -46,12 +46,13 @@ end
 
 def reduce_to_all_true(source_array)
   idx = 0
-  while idx < source_array.length do
-    if source_array == true
-      return true
-    else
-      return false
+  # while idx < source_array.length do
+  #
+  #   end
+
+
     end
+    binding.pry
     idx += 1
   end
 end
