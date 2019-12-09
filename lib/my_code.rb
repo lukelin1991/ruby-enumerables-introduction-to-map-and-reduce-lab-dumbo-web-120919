@@ -46,7 +46,7 @@ end
 def reduce_to_all_true(source_array)
   idx = 0
   while idx < source_array.length do
-    return false if source_array[idx] != true
+    return false if source_array[idx]
     idx += 1
   end
   return true
