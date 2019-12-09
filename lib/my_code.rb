@@ -49,6 +49,7 @@ def reduce_to_all_true(source_array)
   while idx < source_array.length do
     idx += 1
   end
+  binding.pry
 end
 
 def reduce_to_any_true(source_array)
